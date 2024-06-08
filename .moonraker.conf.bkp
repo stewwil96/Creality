@@ -1,5 +1,5 @@
 [server]
-host = 0.0.0.0
+host = 10.0.0.158
 port = 7125
 klippy_uds_address = /tmp/klippy_uds
 max_upload_size = 2048
