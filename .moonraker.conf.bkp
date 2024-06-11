@@ -60,12 +60,6 @@ frame_path = /usr/data/printer_data/frames/
 ffmpeg_binary_path = /opt/bin/ffmpeg
 snapshoturl = http://localhost:8080/?action=snapshot
 
-[update_manager fluidd]
-type = web
-channel = beta
-repo = fluidd-core/fluidd
-path = /usr/data/fluidd
-
 [update_manager S66octoapp_service]
 type = git_repo
 channel = beta
