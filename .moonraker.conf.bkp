@@ -60,6 +60,12 @@ frame_path = /usr/data/printer_data/frames/
 ffmpeg_binary_path = /opt/bin/ffmpeg
 snapshoturl = http://localhost:8080/?action=snapshot
 
+[update_manager mainsail]
+type = web
+channel = beta
+repo = mainsail-crew/mainsail
+path = /usr/data/mainsail
+
 [update_manager S66octoapp_service]
 type = git_repo
 channel = beta
